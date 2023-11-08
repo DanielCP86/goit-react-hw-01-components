@@ -7,9 +7,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: lightslategrey;
+  padding: 25px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table,
+td,
+th {
+  border: 1px solid #999;
+  border-collapse: collapse;
+}
+table {
+  margin: -5px;
+}
+table td {
+  height: 32px;
+  margin: 5px;
 }

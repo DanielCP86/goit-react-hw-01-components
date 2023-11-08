@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  border: white solid 2px;
+  box-shadow: 0 0 10px gray;
+  padding: 10px;
+  width: 320px;
+}
+.status {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: red;
+}
+.online {
+  background-color: green;
+}
+.avatar {
+  border-radius: 10%;
+  background-color: peachpuff;
+  width: 100px;
+  padding: 20px 0px 0px 0px;
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px auto 15px;
+  color: black;
+}
